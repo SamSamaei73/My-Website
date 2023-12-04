@@ -1,0 +1,39 @@
+.NewNavbar{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.NewNavbar .Myphoto{
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.NewNavbar .Myphoto img{
+    width: 100%;
+    height: 100%;
+
+}
+.wihteLogo{
+    height: 10rem;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+
+@media (max-width: 565px) {
+    .wihteLogo{
+        width: 8rem;
+        height: 6rem;
+        position: absolute;
+        top: 3rem;
+        left: -1rem;
+    }
+}
