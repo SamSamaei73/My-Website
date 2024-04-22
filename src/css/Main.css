@@ -1,0 +1,14 @@
+#Main {
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  display: flex;
+  padding: 1rem 5rem;
+}
+
+@media (max-width: 565px) {
+  #Main {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+}
